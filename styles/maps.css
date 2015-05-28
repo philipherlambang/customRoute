@@ -1,0 +1,127 @@
+/* Our Stylesheet */
+
+
+.ui-body-a{
+    margin-top: -1px;
+}
+
+.ui-corner-all{
+    margin-bottom: 10px;
+}
+
+.ui-li-static.ui-collapsible > .ui-collapsible-heading {
+    margin: 0;
+}
+.ui-li-static.ui-collapsible {
+    padding: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading > .ui-btn {
+    border-top-width: 0;
+}
+.ui-li-static.ui-collapsible > .ui-collapsible-heading.ui-collapsible-heading-collapsed > .ui-btn,
+.ui-li-static.ui-collapsible > .ui-collapsible-content {
+    border-bottom-width: 0;
+}
+
+.img-rounded{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+    margin: 10px auto;
+/*
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+*/
+}
+
+.less-padding{
+    padding: 0.1em 0 !important;
+}
+
+.less-margin{
+    margin: 5px 0 !important;
+}
+
+.no-margin{
+    margin: 0 !important;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a, .ui-page-theme-b a, html .ui-bar-b a, html .ui-body-b a, html body .ui-group-theme-b a{
+    font-weight: 300;
+}
+
+.ui-page-theme-b a, html .ui-bar-b a, html .ui-body-b a, html body .ui-group-theme-b a{
+    font-size: 80%;
+}
+
+.footer li a{
+    font-size: 11px !important;
+}
+
+.text-thin{
+    font-weight: 300 !important;
+}
+
+.custom-button{
+    color: #3eb249 !important;
+    font-weight: 300 !important;
+}
+
+.custom-button-small{
+    color: #3eb249 !important;
+    font-weight: 300 !important;
+    font-size: 80% !important;
+}
+
+.text-90{
+    font-size: 90%;
+}
+
+.text-80{
+    font-size: 80% !important;
+}
+
+.text-70{
+    font-size: 70% !important;
+}
+
+.button-container .ui-block-a, .ui-block-b, .ui-block-c, .ui-block-d, .ui-block-e{
+/*    padding: 1px !important;*/
+}
+
+.ui-table th{
+/*    font-weight: 300;*/
+    font-size: 12px;
+}
+
+.v-middle{
+    vertical-align: middle !important;
+}
+
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus{
+    box-shadow: none !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.ui-shadow-inset{
+    box-shadow: none !important;
+}
+
+.ui-grid-b > .ui-block-a, .ui-grid-b > .ui-block-b, .ui-grid-b > .ui-block-c{
+    padding: 2px;
+}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    padding: 4px;
+}
